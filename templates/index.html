@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Batch Downloader</title>
+    <link rel="stylesheet" href={{ url_for('static', filename="css/mystyle.css")}}>
+</head>
+<body>
+    <div class="main">
+        <div class="forms">
+                <form name="f1" method="POST" action="/">
+                    <strong>URL:</strong>
+                    <input type="text" name="urlname" id="t1"><br><br>
+                    <input type="submit" class="button btn-black" value="Add URL">
+                </form>
+                <br>
+                <a class="a-button" href="json_content" target="_blank" rel="noopener noreferrer">Show List</a>
+                <br><br>
+                <a class="a-button btn-red" href="clear_json" target="_blank" rel="noopener noreferrer">Clear List</a>
+                <br><br>
+                <form name="f2" method="POST" action="/down">
+                    <input type="submit" class="button btn-red" value="Download All">
+                </form>
+        </div>
+    </div>
+</body>
+</html>

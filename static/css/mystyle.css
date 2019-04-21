@@ -1,0 +1,63 @@
+html, body {
+    height: 100%;
+}
+.main {
+    padding-top: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.a-button {
+    border: 1px solid green;
+    color: green;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+}
+.a-button:hover {
+    background-color: green;
+    color: white;
+}
+.button {
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn-black {
+    background-color: transparent;
+    border: 1px solid black !important;
+    color: black;
+}
+.btn-black:hover {
+    background-color: black;
+    color: white;
+}
+.btn-red {
+    background-color: transparent;
+    border: 1px solid red !important;
+    color: red;
+}
+.btn-red:hover {
+    background-color: red;
+    color: white;
+}
+.btn-green {
+    background-color: transparent;
+    border: 1px solid green !important;
+    color: green;
+}
+.btn-green:hover {
+    background-color: green;
+    color: white;
+}
+#t1 {
+    width: 90%;
+}
